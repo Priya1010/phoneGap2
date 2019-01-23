@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets" 
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.onlineviewer" version = "1.0">
+   
+   <name>PLM_3d</name>
+   
+   <description>
+      Demo of PLM process
+   </description>
+   
+   <author href = "http://tutorialspoint.com" email = "priya.gupta@soprasteria.com">
+      Priya Gupta
+   </author>
+   
+   <preference name = "permissions" value = "none"/>
+   
+   <icon src = "res/icon/android/drawable-ldpi/android_img.png" 
+      gap:platform = "android" gap:qualifier = "ldpi" />
+
+   
+</widget>

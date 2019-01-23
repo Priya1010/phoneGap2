@@ -1,0 +1,38 @@
+<head>
+<body>
+
+<link rel="stylesheet" href="css/assignment.css">
+
+<div id="outer_div">
+<div class="bc_grey">
+	<div class="pos">
+	<div id="headet_image" ><a href="index.html"><img src="res/back.jpg" height="40" /></a></div>
+	<div >Change Request Properties </div>
+</div>
+</div>
+<div class="main_body">
+	<table cellpadding="0" cellspacing="0">
+		<tr class="row"><td>Change Request No</td><td id="cr"></td></tr>
+		<tr class="row"><td>Owner</td><td id="fn"></td></tr>
+		<tr class="row"><td>Due date</td><td>21-Jan-2019</td></tr>
+		<tr class="row"><td>Related Issue</td><td>ISS-0998989</td></tr>
+		<tr class="row"><td>Description</td><td>Check gaspet to maintain presurre in pump</td></tr>
+		<tr class="row"><td>Related Part</td><td>GSKT-356566</td></tr>
+		<tr class="row"><td>Comments</td><td>Please make necessary changes for gaspet design</td></tr>
+		</table>
+</div>
+<div class="bc_grey">
+		<div class="footer_div"><a href="index.html"><img src="res/cancel.jpg" height="40" /></a></div>
+</div>
+</div>
+
+</body>
+<script>
+
+var url = new URL(window.location.href);
+var firstName = url.searchParams.get("FN");
+var changeRe = url.searchParams.get("CR");
+document.getElementById("fn").innerHTML = firstName;
+document.getElementById("cr").innerHTML = changeRe;
+</script>
+</head>
