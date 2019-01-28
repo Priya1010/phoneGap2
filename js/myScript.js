@@ -7,7 +7,7 @@ window.onload=function(){
 
 function myFunction(val) {
   if(val=="CRprop"){
-    document.getElementById("form").action = "demo.php";
+    
   }else if(val=="listFeat"){
 	  var cells = document.getElementsByClassName("disappear"); 
 		for (var i = 0; i < cells.length; i++) { 
@@ -27,7 +27,6 @@ function myFunction(val) {
     }
   document.getElementById("page1").style.display='block';
   document.getElementById("page2").style.display='none';
-  return false;
 	  
   }
 }
