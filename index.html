@@ -10,7 +10,8 @@
     <script src="js/myScript.js"></script>
   </head>
   <form id="form" method="post">
-    <div  id="primary" class="container" align="center">
+
+    <div  id="primary" align="center">
       <div >
         <div class=" bc_grey ">
         	<div class="row">
@@ -18,12 +19,13 @@
         	<div  class="col"><h4 >Change Request Properties</h4> </div>
         </div>
         </div>
+
         <table class="table">
           <tr class="row"><td class="col">Name</td><td><input   type="text"  class ="disappear" name="name" required></td></tr>
           <tr class="row"><td class="col">Owner</td><td><input class ="disappear" type="text" name="owner" required></td></tr>
           <tr class="row"><td class="col">Due Date</td><td><input class ="disappear" type="Date" name="dueDate"></td></tr>
           <tr class="row"><td class="col">Related Issue</td><td><input class ="disappear" type="text" name="relatedIssue"></td></tr>
-          <tr class="row"><td class="col">Description</td><td><input  class ="disappear" type="text" name="description"></td></tr>
+          <tr class="row"><td class="col">Description</td><td><textarea class ="disappear" rows="4" cols="21" name="description" form="form">Enter text here...</textarea></td></tr>
           <tr class="row"><td class="col">Related Part</td><td><input  class ="disappear" type="text" name="relatedPart"></td></tr>
           <tr class="row"><td class="col">Comments</td><td><textarea  class ="disappear" rows="4" cols="22" name="comment" form="usrform">Enter text here...</textarea></td></tr>
         </table>
