@@ -10,7 +10,8 @@ function myFunction(val) {
   }else if(val=="listFeat"){
 	  var cells = document.getElementsByClassName("disappear");
 		for (var i = 0; i < cells.length; i++) {
-        cells[i].disabled = true;
+        
+		cells[i].setAttribute("readonly", "readonly");
 		cells[i].classList.add("hideborder");
     }
   document.getElementById("page1").style.display='none';
@@ -21,7 +22,7 @@ function myFunction(val) {
   else if(val=="edit"){
 	  var cells = document.getElementsByClassName("disappear");
 		for (var i = 0; i < cells.length; i++) {
-        cells[i].disabled = false;
+        cells[i].removeAttribute("readonly");
 		cells[i].classList.remove("hideborder");
     }
   document.getElementById("page1").style.display='block';

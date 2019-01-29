@@ -3,6 +3,7 @@ background-color: gray;
 padding:20px;
 margin-bottom: 0px;
 border : 1px solid;
+text-align:center;
 }
 
 .row{
@@ -15,14 +16,17 @@ border : 1px solid;
 h4{
 	font-size:5.9wv;
 }
+.hideborder{
+	border:0px;
+}
 
 /* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}
+@media screen and (min-width: 780px) {
+    #primary { width:67%; margin:auto;}
+	
+    
 }
 /* Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
 }
