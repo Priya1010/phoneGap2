@@ -4,7 +4,6 @@
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.onlineviewer" version = "1.0">
    <access origin="*" />
    <name>PLM_3d</name>
-   <content src="login.html"/>
 
    <description>
       Demo of PLM process
@@ -15,6 +14,7 @@
    <author href = "http://tutorialspoint.com" email = "priya.gupta@soprasteria.com">
       Priya Gupta
    </author>
+   <content src="login.html"/>
 
    <preference name = "permissions" value = "none"/>
 
