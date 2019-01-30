@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/Login.css">
+        <link rel="stylesheet" href="css/assig_boot.css">
 		 <script src="js/Login.js"></script>
         <title> Login page </title>
     </head>
@@ -10,7 +10,7 @@
             <h2>Login Form</h2>
         </div>
         <div>
-              <form class="modal-content animate"  method = "GET" action = "List.html">
+              <form class="modal-content animate" id="loginForm" method = "GET" action = "List.html">
                 <div class="imgcontainer">
                   
                   <img src="res/ss.jpg" alt="3DX" class="avatar">
@@ -27,12 +27,10 @@
                   <label>
                   <input type="checkbox" checked="checked" name="remember"> Remember me
                   </label>
+				  
+				  <span class="psw">Forgot <a href="#">password?</a></span>
                 </div>
                 
-                <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
               </form>
                   
         </div>
