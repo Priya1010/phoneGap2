@@ -25,9 +25,6 @@ function myFunction(val) {
     }
   document.getElementById("page1").style.display='none';
   document.getElementById("page2").style.display='block';
-  
-  
-
   }
   else if(val=="edit"){
 	  var cells = document.getElementsByClassName("disappear");
