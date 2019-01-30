@@ -27,4 +27,7 @@ function myFunction(val) {
   document.getElementById("page2").style.display='none';
 
   }
+  else if(val=="done"){
+  document.getElementById("crPage").action = "demo.php";
+  }
 }
