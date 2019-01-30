@@ -78,9 +78,7 @@ input[type=text], input[type=password] {
   }
 
   
- #crBody .modal-content{
-	width: 50% !important;  
-  }
+ 
   
   /* Modal Content/Box */
   .modal-content {

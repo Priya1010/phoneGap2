@@ -39,5 +39,6 @@ function myFunction(val) {
   }
   else if(val=="done"){
   document.getElementById("crPage").action = "demo.php";
+  document.getElementById("crPage").submit();
   }
 }
