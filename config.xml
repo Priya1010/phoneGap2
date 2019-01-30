@@ -4,7 +4,7 @@
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.onlineviewer" version = "1.0">
    <access origin="*" />
    <name>PLM_3d</name>
-   <content src="Login.html"/>
+   <content src="login.html"/>
 
    <description>
       Demo of PLM process

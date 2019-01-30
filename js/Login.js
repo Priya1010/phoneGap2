@@ -16,7 +16,7 @@ function CreateRequestPage(){
 }
 
 function LoginPage(){
-	document.getElementById('listForm').action="Login.html";
+	document.getElementById('listForm').action="login.html";
 }
 	
 
