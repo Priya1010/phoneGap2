@@ -8,11 +8,21 @@ function myFunction(val) {
   if(val=="CRprop"){
 	  window.location.href = "List.html";
   }else if(val=="listFeat"){
-	
+		var count=0;
 	    var cells = document.getElementsByClassName("disappear");
 		for (var i = 0; i < cells.length; i++) {
+			
+			if(cells[i].value != ""){
+				count ++;
+			}
+		}
+		if(count < 7){
+			 alert("Please fill all mandatory fields");
+			 return false;}
+			else{
+			for (var i = 0; i < cells.length; i++) {
 		cells[i].setAttribute("readonly", "readonly");
-		cells[i].classList.add("hideborder");
+			cells[i].classList.add("hideborder");}
     }
   document.getElementById("page1").style.display='none';
   document.getElementById("page2").style.display='block';

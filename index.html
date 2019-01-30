@@ -11,7 +11,7 @@
 	<script src="js/gen_validatorv4.js" type="text/javascript"></script>
     <script src="js/myScript.js"></script>
   </head>
-  <body class = "body" id="crPage">
+  <body class = "body" id="crBody" >
   
   <form id="crPage" method="post" class="modal-content animate">
 
@@ -25,13 +25,13 @@
         </div>
 
         <table class="table ">
-          <tr class="row"><td class="col">Name*</td><td><input id="name" type="text"  class ="disappear " name="name"  /></td></tr>
+          <tr class="row"><td class="col">Name*</td><td><input id="name" type="text"  class ="disappear " name="name"  required /></td></tr>
           <tr class="row"><td class="col">Owner*</td><td><input id="owner" class ="disappear" type="text" name="owner"  /></td></tr>
           <tr class="row"><td class="col">Due Date*</td><td><input class ="disappear" type="Date" name="dueDate"  /></td></tr>
           <tr class="row"><td class="col">Related Issue*</td><td><input class ="disappear" type="text" name="relatedIssue"  /></td></tr>
-          <tr class="row"><td class="col">Description</td><td><textarea class ="disappear" rows="4" cols="22" name="description" form="form" placeholder="Enter text here..."></textarea></td></tr>
+          <tr class="row"><td class="col">Description*</td><td><textarea class ="disappear" rows="4" cols="27" name="description" form="form" placeholder="Enter text here..."></textarea></td></tr>
           <tr class="row"><td class="col">Related Part*</td><td><input  class ="disappear" type="text" name="relatedPart"  /></td></tr>
-          <tr class="row"><td class="col">Comments</td><td><textarea  class ="disappear" rows="4" cols="22" name="comment" form="usrform" placeholder="Enter text here..."></textarea></td></tr>
+          <tr class="row"><td class="col">Comments*</td><td><textarea  class ="disappear" rows="4" cols="27" name="comment" form="usrform" placeholder="Enter text here..."></textarea></td></tr>
         </table>
         <div class="bc_grey">
 		  <div id="page1"><img id="ok" src="res/done.jpg" class="rounded-circle"  onclick=myFunction('listFeat')  height="40" />
