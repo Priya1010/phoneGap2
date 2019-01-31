@@ -38,7 +38,7 @@ function myFunction(val) {
 
   }
   else if(val=="done"){
-  document.getElementById("crPage").action = "demo.php";
+  document.getElementById("crPage").action = "https://demo987456321.000webhostapp.com/phoneGap2/demo.php";
   document.getElementById("crPage").submit();
   }
 }
